@@ -1,0 +1,119 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.preMain{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 70px;
+}
+h1 {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+.textTop {
+  margin: 0 auto;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px 20px #161a24c9;
+}
+.hotls {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ht {
+  height: 100%;
+}
+.col1, .col2, .col3, .col4, .col5 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  height: 350px;
+  padding: 29px;
+}
+h4 {
+  margin:0 auto;
+  font-size: 25px;
+}
+.texth1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.btn {
+  margin:0 auto;
+  margin-top: 30px;
+  width: 200px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 2px 25px #161a244b;
+  display: inline-block;
+  transition: 0.2s linear;
+}
+.btn:hover {background: #b9b7f7cc;}
+.success {color: green;}
+
+.texb {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  padding: 0 40px;
+}
+.hot1, .hot2, .hot3, .hot4, .hot5 {
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
+  height: 350px;
+  margin-bottom: 40px;
+  background-color: #3a3a6554;
+  border-radius: 10px;
+  box-shadow: 1px 3px 15px #161a24d3;
+}
+.hot1 img, .hot2 img, .hot3 img, .hot4 img, .hot5 img {
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #161a24d3;
+}
